@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi generate tmp",
+    "test": "umi-test",
+    "test:coverage": "umi-test --coverage"
+  },
+  "dependencies": {
+    "react": "17.x",
+    "react-dom": "17.x",
+    "umi": "^3.5.20",
+    "@douyinfe/semi-ui": "^2.2.2",
+    "react-use": "^17.3.2",
+    "react-query": "^3.34.7",
+    "@vanilla-extract/css": "^1.6.8"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@umijs/preset-react": "1.x",
+    "@umijs/test": "^3.5.20",
+    "typescript": "^4.1.2",
+    "yorkie": "^2.0.0"
+  }
+}
