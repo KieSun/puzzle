@@ -8,5 +8,12 @@ export default defineConfig({
     { path: '/', component: '@/pages/index' },
   ],
   fastRefresh: {},
-  mfsu: {}
+  mfsu: {},
+  extraPostCSSPlugins: [
+    require('postcss-import'),
+    require('tailwindcss')({
+      config: './tailwind.config.js',
+    }),
+    require('postcss-nested'),
+  ],
 });

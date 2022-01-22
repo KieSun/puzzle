@@ -8,19 +8,23 @@
     "test:coverage": "umi-test --coverage"
   },
   "dependencies": {
+    "@douyinfe/semi-ui": "^2.2.2",
+    "@vanilla-extract/css": "^1.6.8",
     "react": "17.x",
     "react-dom": "17.x",
-    "umi": "^3.5.20",
-    "@douyinfe/semi-ui": "^2.2.2",
-    "react-use": "^17.3.2",
     "react-query": "^3.34.7",
-    "@vanilla-extract/css": "^1.6.8"
+    "react-use": "^17.3.2",
+    "umi": "^3.5.20"
   },
   "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.2.17",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.5.20",
+    "postcss": "7.x",
+    "postcss-import": "12.x",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "typescript": "^4.1.2",
     "yorkie": "^2.0.0"
   }
