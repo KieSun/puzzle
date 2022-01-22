@@ -1,9 +1,9 @@
-import styles from './index.less';
+import Layout from '@/components/layout'
 
 export default function IndexPage() {
   return (
     <div>
-      <h1 className={styles.title}>Page index</h1>
+      <Layout />
     </div>
   );
 }
